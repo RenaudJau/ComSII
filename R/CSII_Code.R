@@ -265,7 +265,7 @@ structure.plot<-function(INDICE, FACTOR, MULTI=T, MTITLE="", ABMAX=5, col1="grey
 #' @param adj_meth p adjust method: \code{"bond"},\code{"BH"},\code{"hoch"}, etc. or \code{"none"} (then p correspond to a wilcoxon test between reference and modality)
 #' @param stars "T" (default), draw or note the stars, anything but "T" does not draw the stars
 #' @param BASE T (default), draw or not the reference community for each modality
-#' @param ... any arguments from a \code{\link{barplot}} function
+#' @param ... any arguments from a \code{\link{barplot}} function can be used
 #'
 #' @export
 #'

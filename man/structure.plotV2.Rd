@@ -44,7 +44,7 @@ structure.plotV2(INDICE, FACTOR, MULTI = T, MTITLE = "", ABMAX = 5,
 
 \item{BASE}{T (default), draw or not the reference community for each modality}
 
-\item{...}{any arguments from a \code{\link{barplot}} function}
+\item{...}{any arguments from a \code{\link{barplot}} function can be used}
 }
 \description{
 same as \code{\link{structure.plot}} but with some more arguments (especially error bars)
